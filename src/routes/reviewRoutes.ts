@@ -18,6 +18,7 @@ router.put('/reviews/:id', apiKeyAuth, updateReview);
 router.delete('/reviews/:id', apiKeyAuth, deleteReview);
 
 // Aggregation route
+ 
 router.get('/ratings/average', getAverageRatings);
 
 export default router;
